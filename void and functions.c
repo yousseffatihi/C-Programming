@@ -45,7 +45,7 @@ void getMaximum3()
     float a, b, c, d, max;
     printf("Give me 4 numbers : \n");
     scanf("%f%f%f%f", &a, &b, &c, &d);
-    max = getMaximum(a,b,c);
+    max = getMaximum2(a,b,c);
     if(max > d)
     {
         printf("The maximum is : %.2f", max);
@@ -74,6 +74,11 @@ void menu(int choice)
       scanf("%f%f%f", &var1, &var2, &var3);
       printf("The maximum is : %.2f\n", getMaximum2(var1, var2, var3));
       break;
+    }
+    case 3:
+    {
+        getMaximum3();
+        break;
     }
     default :{
       printf("Sorry you typed wrong :(\n");
