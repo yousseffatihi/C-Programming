@@ -31,10 +31,28 @@ int choiceMenu()
 {
   int c;
   printf("----Menu----\n");
-  printf("1- Max of two numbers.\n");
-  printf("2- Max of three numbers.\n");
-  scanf("%d\n", &c);
+  printf("1- Max of 2 numbers.\n");
+  printf("2- Max of 3 numbers.\n");
+  printf("3- Max of 4 numbers.\n");
+  printf("Your Choice : ");
+  scanf("%d", &c);
   return c;
+}
+
+void getMaximum3()
+{
+    float a, b, c, d, max;
+    printf("Give me 4 numbers : \n");
+    scanf("%f%f%f%f", &a, &b, &c, &d);
+    max = getMaximum(a,b,c);
+    if(max > d)
+    {
+        printf("The maximum is : %.2f", max);
+    }
+    else
+    {
+        printf("The maximum is : %.2f", d);
+    }
 }
 
 void menu(int choice)
@@ -57,8 +75,7 @@ void menu(int choice)
       break;
     }
     default :{
-      printf("Sorry you typed worng :(\n");
-      exit(0);
+      printf("Sorry you typed wrong :(\n");
     }
   }
 }
