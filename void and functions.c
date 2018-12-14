@@ -4,6 +4,7 @@ float getMaximum(float a, float b);
 float getMaximum2(float a, float b, float c);
 int choiceMenu();
 void menu(int choice);
+void getMaximum3();
 
 int main(int argc, char const *argv[]) {
   menu(choiceMenu());
