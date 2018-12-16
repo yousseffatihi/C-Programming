@@ -1,30 +1,26 @@
 #include <stdio.h>
 
-int factorial(float n)
+int factorial(int n)
 {
   int i, fac = 1;
-  for(i = 0; i < n; i++)
+  for(i = n; i > 0; i--)
   {
     fac *= i;
   }
   return fac;
 }
 
-int recfactorial(float n)
+int recfactorial(int n)
 {
-  int fac = 1;
-  if(n == 0)
-  {
-    return 1;
-  }
-  else
-  {
-    fac *= recfactorial(n-1);
-    return fac;
-  }
+    if((n == 0) || (n == 1))
+    {
+      return 1;
+    }
+    return n*recfactorial(n-1);
 }
 
 int main(int argc, char const *argv[]) {
-  /* code */
+    printf("%d\n", factorial(5));
+    printf("%d\n", recfactorial(5));
   return 0;
 }
