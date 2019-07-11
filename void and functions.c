@@ -65,6 +65,7 @@ void menu(int choice)
       printf("Give me two numbers :\n");
       scanf("%f%f", &var1, &var2);
       printf("The maximum is : %.2f\n", getMaximum(var1, var2));
+      printf("Merci de patienter!");
       break;
     }
     case 2:
