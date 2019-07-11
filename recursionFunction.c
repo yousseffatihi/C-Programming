@@ -21,6 +21,8 @@ int recfactorial(int n)
 
 int main(int argc, char const *argv[]) {
     printf("%d\n", factorial(5));
+    printf("%d\n", factorial(5));
+    printf("%d\n", recfactorial(5));
     printf("%d\n", recfactorial(5));
   return 0;
 }
