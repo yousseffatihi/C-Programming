@@ -85,3 +85,10 @@ void menu(int choice)
     }
   }
 }
+void aff()
+{
+  float a,b,c;
+  scanf("%f",&a);
+  scanf("%f",&b);
+  printf("%f",a+b);
+}
