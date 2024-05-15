@@ -10,7 +10,7 @@ Welcome to SahleMahle's YouTube channel! Here you'll find tutorials on various p
 
 2. [Void and Functions](https://youtu.be/3FYwnYn3-HM?list=PL1hnSLx72hdxPnTatcFA68NNF54DQZmtk)
    - Description: Explore the usage of void and functions in C programming.
-   - Example File: [void_and_functions.c](void_and_functions.c)
+   - Example File: [void and functions.c](https://github.com/yousseffatihi/C-Programming/blob/master/void%20and%20functions.c)
 
 ## Connect with SahleMahle
 
